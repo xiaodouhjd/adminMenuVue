@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.4.5",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
@@ -24,11 +27,14 @@
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/test-utils": "^1.0.3",
+    "axios": "^0.18.0",
     "chai": "^4.1.2",
     "chromedriver": "88",
     "geckodriver": "^1.20.0",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
+    "vue-cli-plugin-axios": "0.0.4",
+    "vue-cli-plugin-element": "^1.0.1",
     "vue-template-compiler": "^2.6.11"
   }
 }
